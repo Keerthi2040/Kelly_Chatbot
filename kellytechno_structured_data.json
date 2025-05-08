@@ -1,0 +1,191 @@
+[
+  {
+    "intent": "greeting_hello",
+    "patterns": [
+      "hi",
+      "hello",
+      "hey",
+      "good morning",
+      "good evening"
+    ],
+    "response": "Hello! Welcome to Kelly Technologies. How can I help you today?"
+  },
+  {
+    "intent": "greeting_bye",
+    "patterns": [
+      "bye",
+      "goodbye",
+      "see you",
+      "talk to you later"
+    ],
+    "response": "Goodbye! Feel free to come back anytime for more course details."
+  },
+  {
+    "intent": "greeting_thankyou",
+    "patterns": [
+      "thanks",
+      "thank you",
+      "thank you so much"
+    ],
+    "response": "You're welcome! Let me know if you need more assistance."
+  },
+  {
+    "intent": "greeting_welcome",
+    "patterns": [
+      "you are welcome",
+      "my pleasure"
+    ],
+    "response": "Glad to help you anytime."
+  },
+  {
+    "intent": "about_us",
+    "patterns": [
+      "tell me about kelly technologies",
+      "what is kelly technologies",
+      "about your institute",
+      "what do you do"
+    ],
+    "response": "Kelly Technologies is a leading IT training institute with 13+ years of experience offering courses in Data Science, Cloud, DevOps, AI, and more. Learn more at https://www.kellytechno.com/about-us/"
+  },
+  {
+    "intent": "contact_info",
+    "patterns": [
+      "how can I contact you",
+      "contact details",
+      "phone number",
+      "email address",
+      "where are you located"
+    ],
+    "response": "You can reach us at +91 998 570 6789 or email info@kellytechno.com. Visit: https://www.kellytechno.com/Contact-Us/"
+  },
+  {
+    "intent": "homepage_info",
+    "patterns": [
+      "what courses do you offer",
+      "list of all courses",
+      "training programs",
+      "overview"
+    ],
+    "response": "We offer IT training in Data Science, DevOps, AWS, Azure, Python, AI, and more. Explore all: https://www.kellytechno.com/Hyderabad/Courses/"
+  },
+  {
+    "intent": "course_data_science",
+    "patterns": [
+      "tell me about data science training in hyderabad",
+      "data science training in hyderabad",
+      "data_science course details",
+      "data_science training",
+      "data_science classes"
+    ],
+    "response": "Data Science Training in Hyderabad is offered with expert trainers and real-time projects. Learn more at https://www.kellytechno.com/Hyderabad/Course/Data-Science-Training"
+  },
+  {
+    "intent": "course_aws",
+    "patterns": [
+      "tell me about aws training in hyderabad",
+      "aws training in hyderabad",
+      "aws course details",
+      "aws training",
+      "aws classes"
+    ],
+    "response": "AWS Training in Hyderabad is offered with expert trainers and real-time projects. Learn more at https://www.kellytechno.com/Hyderabad/Course/amazon-web-services-training"
+  },
+  {
+    "intent": "course_azure",
+    "patterns": [
+      "tell me about microsoft azure training",
+      "microsoft azure training",
+      "azure course details",
+      "azure training",
+      "azure classes"
+    ],
+    "response": "Microsoft Azure Training is offered with expert trainers and real-time projects. Learn more at https://www.kellytechno.com/Hyderabad/Course/windows-azure-training"
+  },
+  {
+    "intent": "course_devops",
+    "patterns": [
+      "tell me about azure devops training",
+      "azure devops training",
+      "devops course details",
+      "devops training",
+      "devops classes"
+    ],
+    "response": "Azure DevOps Training is offered with expert trainers and real-time projects. Learn more at https://www.kellytechno.com/Hyderabad/Course/Azure-DevOps-Training-in-Hyderabad"
+  },
+  {
+    "intent": "course_gen_ai",
+    "patterns": [
+      "tell me about generative ai training",
+      "generative ai training",
+      "gen_ai course details",
+      "gen_ai training",
+      "gen_ai classes"
+    ],
+    "response": "Generative AI Training is offered with expert trainers and real-time projects. Learn more at https://www.kellytechno.com/Hyderabad/Course/Generative-AI-Training-in-Hyderabad"
+  },
+  {
+    "intent": "contact_info",
+    "patterns": [
+      "how can I contact you",
+      "contact details",
+      "phone number",
+      "email address",
+      "where are you located",
+      "how to reach kelly technologies"
+    ],
+    "response": "\ud83d\udccd Hyderabad: Flat No. 212, 2nd Floor, Annapurna Block, Aditya Enclave, Ameerpet, Hyderabad-16. \ud83d\udccd Bangalore: Flat No#101, Sharada Sada Niliyam, Behind Ram Dev Medicals, Belathur Main Road. \ud83d\udce7 info@kellytechno.com \ud83d\udcde +91 998 570 6789. Full details: https://www.kellytechno.com/Contact-Us/"
+  },
+  {
+    "intent": "training_mode",
+    "patterns": [
+      "are courses online",
+      "do you offer online classes",
+      "is classroom training available",
+      "training modes",
+      "what training formats are available"
+    ],
+    "response": "We offer both online and classroom training options. Our online sessions are instructor-led and interactive."
+  },
+  {
+    "intent": "training_duration",
+    "patterns": [
+      "how long are the courses",
+      "course duration",
+      "length of training",
+      "how many weeks is the training"
+    ],
+    "response": "Course durations vary depending on the program. Most programs offer flexible scheduling and last between 4 to 8 weeks."
+  },
+  {
+    "intent": "certification",
+    "patterns": [
+      "do you provide certification",
+      "will i get a certificate",
+      "is there a certificate after course",
+      "course completion proof"
+    ],
+    "response": "Yes! Upon successful completion, Kelly Technologies provides a certification that adds value to your resume and job prospects."
+  },
+  {
+    "intent": "placement_support",
+    "patterns": [
+      "do you offer job support",
+      "is placement support available",
+      "job assistance",
+      "placement help",
+      "career guidance"
+    ],
+    "response": "Absolutely! We provide 100% job placement assistance after course completion, including resume prep and interview scheduling."
+  },
+  {
+    "intent": "all_courses",
+    "patterns": [
+      "what are the available courses",
+      "list all the courses",
+      "which technologies do you offer",
+      "training programs list",
+      "what courses do you teach"
+    ],
+    "response": "We offer training in Data Science, AWS, Azure, DevOps, Python, AI, Power BI, Salesforce, Full Stack, GCP, Digital Marketing and more. Explore: https://www.kellytechno.com/Hyderabad/Courses/"
+  }
+]
